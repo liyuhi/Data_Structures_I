@@ -13,11 +13,10 @@ struct peixe{
 int main(){
 
 //a) criando uma variável de tipo peixe
-struct peixe peixe1 = {"Tambaqui", 1.4, 70};
+struct peixe peixe1 = {"Atum", 300, 3};
 
 //b) criando um ponteiro para variável de tipo peixe
 struct peixe *ptrpeixe = &peixe1;
 
 return(0);
 }
-
