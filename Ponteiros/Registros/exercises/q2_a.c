@@ -19,10 +19,9 @@ void exibirpeixe(struct peixe t){
 }
 
 int main(){
-    struct peixe peixe1 = {"Tambaqui", 1.4, 70};
+    struct peixe peixe1 = {"Atum", 680, 300};
     exibirpeixe(peixe1);
 
     return(0);
 }
-
 
