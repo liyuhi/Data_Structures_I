@@ -6,9 +6,7 @@
 #include <ctype.h>
 #include <locale.h>
 
-
 #define MAX 10
-
 
 int main(){
     setlocale(LC_ALL, "Portuguese");
