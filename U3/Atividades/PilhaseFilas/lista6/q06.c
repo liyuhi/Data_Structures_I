@@ -5,9 +5,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-
 #define MAX 5  
-
 
 typedef struct {
     char* clientes[MAX];
