@@ -12,7 +12,7 @@ A divisão do repositório é feita de acordo com as três unidades estudadas, o
 ## 2. Exemplos
 Os exemplos estão em cada pasta correspondente à unidade, dentro da pasta com o nome do conteúdo. A estrutura das pastas se dá da seguinte forma:
 
-Unidade 1 (U1):
+- Unidade 1 (U1):
 
 ```
 Data_Structures_I/
@@ -31,7 +31,7 @@ Data_Structures_I/
         └── examples/
 ```
 
-Unidade 2 (U2):
+- Unidade 2 (U2):
 
 ```
 U2/
@@ -45,7 +45,7 @@ U2/
     └── examples/
 ```
 
-Unidade 3 (U3):
+- Unidade 3 (U3):
 
 ```
 U3/
@@ -60,7 +60,7 @@ U3/
 ## 3. Atividades
 A estrutura das pastas de atividades é organizada da seguinte maneira:
 
-Unidade 1 (U1):
+- Unidade 1 (U1):
 
 ```
 Data_Structures_I/
@@ -83,7 +83,7 @@ Data_Structures_I/
     └── Registros/
 ```
 
-Unidade 2 (U2):
+- Unidade 2 (U2):
 
 ```
 U2/
@@ -101,7 +101,7 @@ U2/
 └── ManipulacaodeArquivos/
 ```
 
-Unidade 3 (U3):
+- Unidade 3 (U3):
 
 ```
 U3/
