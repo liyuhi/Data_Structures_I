@@ -28,9 +28,9 @@ int main(){
     int resultado = buscaBinaria(lista, tamanho, elemento);
 
     if(resultado != -1){
-        printf("Elemento encontrado no índice %d\n", resultado);
+        printf("Elemento encontrado no ï¿½ndice %d\n", resultado);
     }else{
-        printf("Elemento não encontrado\n");
+        printf("Elemento nï¿½o encontrado\n");
     }
     return 0;
 }
