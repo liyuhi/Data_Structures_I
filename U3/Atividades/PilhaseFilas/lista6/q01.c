@@ -5,9 +5,7 @@
 #include <string.h>
 #include <locale.h>
 
-
 #define max 10
-
 
 void verifica(const char *str){
     char pilha[max];
