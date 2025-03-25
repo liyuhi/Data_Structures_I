@@ -72,11 +72,11 @@ Data_Structures_I/
     ├── Atividades/
     │   │
     │   ├── Ponteiros/
-    │   │   └── lista 1/
+    │   │   └── lista1/
     │   │
     │   └── Registros/
-    │       ├── lista 2/
-    │       └── lista 3/
+    │       ├── lista2/
+    │       └── lista3/
     │
     ├── Ponteiros/
     │
@@ -91,10 +91,10 @@ U2/
 ├── Atividades/
 │   │
 │   ├── BuscaeOrdenacao/
-│   │   └── lista 5/
+│   │   └── lista5/
 │   │
 │   └── ManipulacaodeArquivos/
-│       └── lista 4/
+│       └── lista4/
 │
 ├── BuscaeOrdenacao/
 │
@@ -109,10 +109,10 @@ U3/
 ├── Atividades/
 │   │
 │   ├── EstruturadeListas/
-│   │   └── lista 7/
+│   │   └── lista7/
 │   │
 │   └── PilhaseFilas/
-│       └── lista 6/
+│       └── lista6/
 │
 └── Pilhas_e_Filas/
 ```
