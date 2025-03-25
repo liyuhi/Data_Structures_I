@@ -5,9 +5,7 @@
 #include <stdlib.h>
 #include <ctype.h>
 
-
 #define MAX 100
-
 
 int precedencia(char op) {
     if (op == '+' || op == '-') {
