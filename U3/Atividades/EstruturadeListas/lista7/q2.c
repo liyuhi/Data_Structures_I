@@ -1,0 +1,1 @@
+//Baseado na questão anterior, implemente uma lista duplamente encadeada com as mesma funções da questão anterior.
