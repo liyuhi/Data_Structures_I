@@ -4,9 +4,7 @@
 #include <locale.h>
 #include <stdlib.h>
 
-
 #define MAX 5  
-
 
 typedef struct {
     int itens[MAX];
