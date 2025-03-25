@@ -1,42 +1,41 @@
-# Data Structures I
-Repositório dedicado à disciplina Estrutura de Dados I (PEX1241), com exemplos e resoluções de listas.
+# 📂 Data Structures I
 
-## 1. Organização do repositório
-A divisão do repositório é feita de acordo com as três unidades estudadas, onde cada unidade possui uma pasta com as listas de exercícios e outra com exemplos vistos na disciplina.
+Repositório dedicado à disciplina **Estruturas de Dados I (PEX1241)**, contendo exemplos e resoluções de listas de exercícios.
 
-- [Unidade 1](#U1)
-- [Unidade 2](#U2)
-- [Unidade 3](#U3)
+---
 
+## 📌 1. Organização do Repositório
+O repositório está dividido em três unidades de estudo, cada uma contendo:
+- Uma pasta com as **listas de exercícios**;
+- Uma pasta com **exemplos** abordados na disciplina.
 
-## 2. Exemplos
-Os exemplos estão em cada pasta correspondente à unidade, dentro da pasta com o nome do conteúdo. A estrutura das pastas se dá da seguinte forma:
+### 📖 Unidades de Estudo
+- [Unidade 1 - Ponteiros, Registros e Alocação de Memória](#U1)
+- [Unidade 2 - Manipulação de Arquivos e Busca e Ordenação](#U2)
+- [Unidade 3 - Pilhas, Filas e Listas](#U3)
 
-- Unidade 1 (U1):
+---
 
+## 📝 2. Exemplos
+Os exemplos estão organizados dentro de suas respectivas unidades e pastas temáticas.
+
+### 🔹 Unidade 1 (U1) - Ponteiros, Registros e Alocação de Memória
 ```
-Data_Structures_I/
+U1/
 │
-└── U1/
-    │
-    ├── AlocacaodeMemoria/
-    │   └── examples/
-    │
-    ├── Atividades/
-    │
-    ├── Ponteiros/
-    │   └── examples/
-    │
-    └── Registros/
-        └── examples/
+├── AlocacaodeMemoria/
+│   └── examples/
+│
+├── Ponteiros/
+│   └── examples/
+│
+└── Registros/
+    └── examples/
 ```
 
-- Unidade 2 (U2):
-
+### 🔹 Unidade 2 (U2) - Manipulação de Arquivos e Busca e Ordenação
 ```
 U2/
-│
-├── Atividades/
 │
 ├── BuscaeOrdenacao/
 │   └── examples/
@@ -45,46 +44,34 @@ U2/
     └── examples/
 ```
 
-- Unidade 3 (U3):
-
+### 🔹 Unidade 3 (U3) - Pilhas, Filas e Listas
 ```
 U3/
 │
-├── Atividades/
-│
-│
-└── Pilhas_e_Filas/
+└── PilhaseFilas/
     └── examples/
 ```
 
-## 3. Atividades
-A estrutura das pastas de atividades é organizada da seguinte maneira:
+---
 
-- Unidade 1 (U1):
+## 📂 3. Atividades
+As atividades são separadas por unidade e organizadas por tema.
 
+### 🔹 Unidade 1 (U1)
 ```
-Data_Structures_I/
+U1/
 │
-└── U1/
-    │
-    ├── AlocacaodeMemoria/
-    │
-    ├── Atividades/
-    │   │
-    │   ├── Ponteiros/
-    │   │   └── lista1/
-    │   │
-    │   └── Registros/
-    │       ├── lista2/
-    │       └── lista3/
-    │
-    ├── Ponteiros/
-    │
-    └── Registros/
+├── Atividades/
+│   │
+│   ├── Ponteiros/
+│   │   └── lista1/
+│   │
+│   └── Registros/
+│       ├── lista2/
+│       └── lista3/
 ```
 
-- Unidade 2 (U2):
-
+### 🔹 Unidade 2 (U2)
 ```
 U2/
 │
@@ -95,14 +82,9 @@ U2/
 │   │
 │   └── ManipulacaodeArquivos/
 │       └── lista4/
-│
-├── BuscaeOrdenacao/
-│
-└── ManipulacaodeArquivos/
 ```
 
-- Unidade 3 (U3):
-
+### 🔹 Unidade 3 (U3)
 ```
 U3/
 │
@@ -113,6 +95,4 @@ U3/
 │   │
 │   └── PilhaseFilas/
 │       └── lista6/
-│
-└── Pilhas_e_Filas/
 ```
