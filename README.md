@@ -10,9 +10,9 @@ O repositório está dividido em três unidades de estudo, cada uma contendo:
 - Uma pasta com **exemplos** abordados na disciplina.
 
 ### 📖 Unidades de Estudo
-- [Unidade 1 - Ponteiros, Registros e Alocação de Memória](#U1)
-- [Unidade 2 - Manipulação de Arquivos e Busca e Ordenação](#U2)
-- [Unidade 3 - Pilhas, Filas e Listas](#U3)
+- [Unidade 1 - Ponteiros, Registros e Alocação de Memória](./U1/)
+- [Unidade 2 - Manipulação de Arquivos e Busca e Ordenação](./U2/)
+- [Unidade 3 - Pilhas, Filas e Listas](./U3/)
 
 ---
 
