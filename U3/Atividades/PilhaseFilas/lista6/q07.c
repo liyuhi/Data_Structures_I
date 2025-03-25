@@ -4,9 +4,7 @@
 #include <string.h>
 #include <locale.h>
 
-
 #define max 50
-
 
 void add(char *fila[max], int *tras, char documento[]) {
    if (*tras < max) {
