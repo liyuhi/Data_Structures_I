@@ -4,9 +4,7 @@
 #include <string.h>
 #include <locale.h>
 
-
 #define max 100
-
 
 typedef struct {
     char nome[max];
