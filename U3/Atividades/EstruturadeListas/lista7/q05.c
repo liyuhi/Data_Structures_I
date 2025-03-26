@@ -106,10 +106,10 @@ void reorganizarPlaylist(Playlist* playlist) {
         printf("A playlist está vazia.\n");
         return;
     }
-    
+
     Musica* atual = playlist->cabeca;
     Musica* temp = NULL;
-    
+
     // Inverte a lista
     do {
         temp = atual->anterior;
@@ -120,42 +120,70 @@ void reorganizarPlaylist(Playlist* playlist) {
 
     // Ajustar a cabeça da playlist
     playlist->cabeca = temp->anterior;
-}   
+}
 
 // Função principal para testar a playlist
 int main() {
     setlocale(LC_ALL, "pt_BR.UTF-8");
-    system("chcp 65001"); 
+    system("chcp 65001");
 
     Playlist playlist;
     inicializarPlaylist(&playlist);
+    int opcao;
+    char titulo[100], artista[100];
+    int minutos, segundos;
 
-    // Adicionando as músicas
-    printf("\n");
-    printf("Adicionando músicas à playlist...\n");
-    adicionarMusica(&playlist, "ANXIETY (feat. Doechii)", "Sleepy Hallow", 2, 23);
-    adicionarMusica(&playlist, "Die With A Smile (feat. Bruno Mars)", "Lady Gaga", 4, 13);
+    do {
+        printf("\nMenu:\n");
+        printf("1. Adicionar música\n");
+        printf("2. Remover música\n");
+        printf("3. Exibir playlist\n");
+        printf("4. Reorganizar playlist\n");
+        printf("5. Sair\n");
+        printf("Escolha uma opção: ");
+        scanf("%d", &opcao);
+        getchar(); // Limpar o buffer do teclado
 
-    exibirPlaylist(&playlist);
-
-    printf("Removendo 'ANXIETY (feat. Doechii)' da playlist...\n");
-    removerMusica(&playlist, "ANXIETY (feat. Doechii)");
+        switch (opcao) {
+            case 1:
+                printf("Digite o título da música: ");
+                fgets(titulo, sizeof(titulo), stdin);
+                titulo[strcspn(titulo, "\n")] = 0; // Remove a nova linha
+                printf("Digite o artista: ");
+                fgets(artista, sizeof(artista), stdin);
+                artista[strcspn(artista, "\n")] = 0; // Remove a nova linha
+                printf("Digite a duração (minutos e segundos): ");
+                scanf("%d %d", &minutos, &segundos);
+                adicionarMusica(&playlist, titulo, artista, minutos, segundos);
+                break;
+            case 2:
+                printf("Digite o título da música a ser removida: ");
+                fgets(titulo, sizeof(titulo), stdin);
+                titulo[strcspn(titulo, "\n")] = 0; // Remove a nova linha
+                removerMusica(&playlist, titulo);
+                break;
+            case 3:
+                exibirPlaylist(&playlist);
+                break;
+            case 4:
+                reorganizarPlaylist(&playlist);
+                printf("Playlist reorganizada.\n");
+                break;
+            case 5:
+                printf("Saindo...\n");
+                break;
+            default:
+                printf("Opção inválida. Tente novamente.\n");
+            }
+        } while (opcao != 5);
     
-    exibirPlaylist(&playlist);
-
-    printf("Reorganizando a playlist...\n");
-    reorganizarPlaylist(&playlist);
+        // Liberar memória
+        printf("Liberando memória...\n");
+        while (playlist.cabeca != NULL) {
+            Musica* atual = playlist.cabeca;
+            removerMusica(&playlist, atual->titulo);
+        }
     
-    exibirPlaylist(&playlist);
-
-    // Liberar memória
-    printf("Liberando memória...\n");
-    while (playlist.cabeca != NULL) {
-        Musica* atual = playlist.cabeca;
-        removerMusica(&playlist, atual->titulo);
+        printf("Programa encerrado.\n");
+        return 0;
     }
-
-    printf("Programa encerrado.\n");
-    printf("\n");
-    return 0;
-}
