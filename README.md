@@ -1,6 +1,7 @@
 # 📂 Data Structures I
 
-Repositório dedicado à disciplina **Estruturas de Dados I (PEX1241)**, contendo exemplos e resoluções de listas de exercícios.
+Repositório dedicado às disciplinas **Algoritmos e Estrutura de Dados I (PEX1241)** e **Laboratório de Algoritmos e Estruturas de Dados I (PEX1243)**, contendo exemplos e resoluções de listas de exercícios.
+
 
 ---
 
