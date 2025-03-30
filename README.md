@@ -20,39 +20,27 @@ O repositório está dividido em três unidades de estudo, cada uma contendo:
 ## 📝 2. Exemplos
 Os exemplos estão organizados dentro de suas respectivas unidades e pastas temáticas.
 
-### 🔹 Unidade 1 (U1) - Ponteiros, Registros e Alocação de Memória
 ```
-U1/
+EstruturasDeDados/
 │
-├── AlocacaodeMemoria/
-│   └── examples/
+├── U1/
+│   ├── AlocacaodeMemoria/
+│   │   └── examples/
+│   ├── Ponteiros/
+│   │   └── examples/
+│   └── Registros/
+│       └── examples/
 │
-├── Ponteiros/
-│   └── examples/
+├── U2/
+│   ├── BuscaeOrdenacao/
+│   │   └── examples/
+│   └── ManipulacaodeArquivos/
+│       └── examples/
 │
-└── Registros/
-    └── examples/
+└── U3/
+    └── PilhaseFilas/
+        └── examples/
 ```
-
-### 🔹 Unidade 2 (U2) - Manipulação de Arquivos e Busca e Ordenação
-```
-U2/
-│
-├── BuscaeOrdenacao/
-│   └── examples/
-│
-└── ManipulacaodeArquivos/
-    └── examples/
-```
-
-### 🔹 Unidade 3 (U3) - Pilhas, Filas e Listas
-```
-U3/
-│
-└── PilhaseFilas/
-    └── examples/
-```
-
 ---
 
 ## 📂 Atividades
@@ -69,15 +57,15 @@ Atividades/
 │   │   └── lista3/
 │
 ├── U2/
-│   ├── ManipulacaodeArquivos/
-│   │   └── lista4/
 │   ├── BuscaeOrdenacao/
 │   │   └── lista5/
+│   ├── ManipulacaodeArquivos/
+│   │   └── lista4/
 │
 ├── U3/
-│   ├── PilhaseFilas/
-│   │   └── lista6/
 │   ├── EstruturadeListas/
-│       └── lista7/
+│   │   └── lista7/
+│   ├── PilhaseFilas/
+│       └── lista6/
 ```
 ---
