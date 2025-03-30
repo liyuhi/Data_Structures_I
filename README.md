@@ -21,7 +21,7 @@ O repositório está dividido em três unidades de estudo, cada uma contendo:
 Os exemplos estão organizados dentro de suas respectivas unidades e pastas temáticas.
 
 ```
-EstruturasDeDados/
+Data_Structures_I/
 │
 ├── U1/
 │   ├── AlocacaodeMemoria/
