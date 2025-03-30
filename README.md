@@ -55,46 +55,29 @@ U3/
 
 ---
 
-## 📂 3. Atividades
+## 📂 Atividades
 As atividades são separadas por unidade e organizadas por tema.
-
-### 🔹 Unidade 1 (U1)
+ 
 ```
-U1/
+Atividades/
 │
-├── Atividades/
-│   │
+├── U1/
 │   ├── Ponteiros/
 │   │   └── lista1/
-│   │
-│   └── Registros/
-│       ├── lista2/
-│       └── lista3/
-```
-
-### 🔹 Unidade 2 (U2)
-```
-U2/
+│   ├── Registros/
+│   │   ├── lista2/
+│   │   └── lista3/
 │
-├── Atividades/
-│   │
+├── U2/
+│   ├── ManipulacaodeArquivos/
+│   │   └── lista4/
 │   ├── BuscaeOrdenacao/
 │   │   └── lista5/
-│   │
-│   └── ManipulacaodeArquivos/
-│       └── lista4/
-```
-
-### 🔹 Unidade 3 (U3)
-```
-U3/
 │
-├── Atividades/
-│   │
+├── U3/
+│   ├── PilhaseFilas/
+│   │   └── lista6/
 │   ├── EstruturadeListas/
-│   │   └── lista7/
-│   │
-│   └── PilhaseFilas/
-│       └── lista6/
+│       └── lista7/
 ```
 ---
